@@ -21,8 +21,8 @@ fun main() {
     val usuario2 = Usuario("Maria")
 
     val conteudo1 = ConteudoEducacional("Introdução à Programação", 90)
-    val conteudo2 = ConteudoEducacional("Banco de Dados Avançado", 120)
-    val conteudo3 = ConteudoEducacional("Desenvolvimento Web Avançado", 150)
+    val conteudo2 = ConteudoEducacional("Banco de Dados", 120)
+    val conteudo3 = ConteudoEducacional("Desenvolvimento Web", 150)
 
     val formacao1 = Formacao("Desenvolvedor Full Stack", Nivel.INTERMEDIARIO, listOf(conteudo1, conteudo2, conteudo3))
     
